@@ -1,0 +1,54 @@
+{
+  "status": "all assertions passed",
+  "scope": "All labelled simple graphs on 1..5 vertices; 100 seeded random graphs for each of n=6,7,8.",
+  "exhaustive_graphs": 1099,
+  "random_graphs": 300,
+  "seed": 22092026,
+  "oracle_sanity_cases": [
+    "path",
+    "triangle",
+    "cycle",
+    "clique",
+    "K2,4"
+  ],
+  "ladder_cases": [
+    {
+      "k": 1,
+      "vertices": 6,
+      "boundary_per_cell": 3
+    },
+    {
+      "k": 2,
+      "vertices": 10,
+      "boundary_per_cell": 5
+    },
+    {
+      "k": 3,
+      "vertices": 14,
+      "boundary_per_cell": 7
+    },
+    {
+      "k": 5,
+      "vertices": 22,
+      "boundary_per_cell": 11
+    },
+    {
+      "k": 10,
+      "vertices": 42,
+      "boundary_per_cell": 21
+    }
+  ],
+  "graphs": 1399,
+  "connected_set_pairs": 207387,
+  "scalar_inequalities": 622161,
+  "minor_free_parameter_histogram": {
+    "2": 700,
+    "3": 429,
+    "4": 156,
+    "5": 51,
+    "6": 42,
+    "7": 21
+  },
+  "seconds": 0.368,
+  "limitation": "Finite falsification checks; no claim of proof or exhaustive literature novelty."
+}

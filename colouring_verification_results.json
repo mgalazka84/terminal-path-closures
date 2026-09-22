@@ -1,0 +1,357 @@
+{
+  "status": "passed",
+  "scope": "Targeted tests of the new colouring proof only",
+  "contractions": {
+    "exhaustive_graphs": 75,
+    "exhaustive_orders": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "exhaustive_colouring_outcomes": 35634,
+    "exhaustive_outcomes_with_retained_white_vertices": 1884,
+    "sampled_graphs": 36,
+    "sampled_orders": [
+      5,
+      6,
+      7
+    ],
+    "sampled_colouring_outcomes": 2880,
+    "sampled_outcomes_with_retained_white_vertices": 286,
+    "seed": 2209202609,
+    "independent_oracle": "Connected-set partitions; largest K2,s minor"
+  },
+  "exact_probabilities": {
+    "exact_probability_equalities": 34,
+    "colourings_enumerated": 2136,
+    "arithmetic": "fractions.Fraction; no floating-point tolerances",
+    "records": [
+      {
+        "h": 3,
+        "path_length": 2,
+        "internal_vertex": 1,
+        "exact_probability": "1/4",
+        "required_lower_probability": "1/16"
+      },
+      {
+        "h": 3,
+        "path_length": 3,
+        "internal_vertex": 1,
+        "exact_probability": "1/16",
+        "required_lower_probability": "1/16"
+      },
+      {
+        "h": 3,
+        "path_length": 3,
+        "internal_vertex": 2,
+        "exact_probability": "1/16",
+        "required_lower_probability": "1/16"
+      },
+      {
+        "h": 4,
+        "path_length": 2,
+        "internal_vertex": 1,
+        "exact_probability": "1/6",
+        "required_lower_probability": "1/54"
+      },
+      {
+        "h": 4,
+        "path_length": 3,
+        "internal_vertex": 1,
+        "exact_probability": "1/18",
+        "required_lower_probability": "1/54"
+      },
+      {
+        "h": 4,
+        "path_length": 3,
+        "internal_vertex": 2,
+        "exact_probability": "1/18",
+        "required_lower_probability": "1/54"
+      },
+      {
+        "h": 4,
+        "path_length": 4,
+        "internal_vertex": 1,
+        "exact_probability": "1/54",
+        "required_lower_probability": "1/54"
+      },
+      {
+        "h": 4,
+        "path_length": 4,
+        "internal_vertex": 2,
+        "exact_probability": "1/54",
+        "required_lower_probability": "1/54"
+      },
+      {
+        "h": 4,
+        "path_length": 4,
+        "internal_vertex": 3,
+        "exact_probability": "1/54",
+        "required_lower_probability": "1/54"
+      },
+      {
+        "h": 5,
+        "path_length": 2,
+        "internal_vertex": 1,
+        "exact_probability": "1/8",
+        "required_lower_probability": "27/4096"
+      },
+      {
+        "h": 5,
+        "path_length": 3,
+        "internal_vertex": 1,
+        "exact_probability": "3/64",
+        "required_lower_probability": "27/4096"
+      },
+      {
+        "h": 5,
+        "path_length": 3,
+        "internal_vertex": 2,
+        "exact_probability": "3/64",
+        "required_lower_probability": "27/4096"
+      },
+      {
+        "h": 5,
+        "path_length": 4,
+        "internal_vertex": 1,
+        "exact_probability": "9/512",
+        "required_lower_probability": "27/4096"
+      },
+      {
+        "h": 5,
+        "path_length": 4,
+        "internal_vertex": 2,
+        "exact_probability": "9/512",
+        "required_lower_probability": "27/4096"
+      },
+      {
+        "h": 5,
+        "path_length": 4,
+        "internal_vertex": 3,
+        "exact_probability": "9/512",
+        "required_lower_probability": "27/4096"
+      },
+      {
+        "h": 5,
+        "path_length": 5,
+        "internal_vertex": 1,
+        "exact_probability": "27/4096",
+        "required_lower_probability": "27/4096"
+      },
+      {
+        "h": 5,
+        "path_length": 5,
+        "internal_vertex": 2,
+        "exact_probability": "27/4096",
+        "required_lower_probability": "27/4096"
+      },
+      {
+        "h": 5,
+        "path_length": 5,
+        "internal_vertex": 3,
+        "exact_probability": "27/4096",
+        "required_lower_probability": "27/4096"
+      },
+      {
+        "h": 5,
+        "path_length": 5,
+        "internal_vertex": 4,
+        "exact_probability": "27/4096",
+        "required_lower_probability": "27/4096"
+      },
+      {
+        "h": 6,
+        "path_length": 2,
+        "internal_vertex": 1,
+        "exact_probability": "1/10",
+        "required_lower_probability": "8/3125"
+      },
+      {
+        "h": 6,
+        "path_length": 3,
+        "internal_vertex": 1,
+        "exact_probability": "1/25",
+        "required_lower_probability": "8/3125"
+      },
+      {
+        "h": 6,
+        "path_length": 3,
+        "internal_vertex": 2,
+        "exact_probability": "1/25",
+        "required_lower_probability": "8/3125"
+      },
+      {
+        "h": 6,
+        "path_length": 4,
+        "internal_vertex": 1,
+        "exact_probability": "2/125",
+        "required_lower_probability": "8/3125"
+      },
+      {
+        "h": 6,
+        "path_length": 4,
+        "internal_vertex": 2,
+        "exact_probability": "2/125",
+        "required_lower_probability": "8/3125"
+      },
+      {
+        "h": 6,
+        "path_length": 4,
+        "internal_vertex": 3,
+        "exact_probability": "2/125",
+        "required_lower_probability": "8/3125"
+      },
+      {
+        "h": 6,
+        "path_length": 5,
+        "internal_vertex": 1,
+        "exact_probability": "4/625",
+        "required_lower_probability": "8/3125"
+      },
+      {
+        "h": 6,
+        "path_length": 5,
+        "internal_vertex": 2,
+        "exact_probability": "4/625",
+        "required_lower_probability": "8/3125"
+      },
+      {
+        "h": 6,
+        "path_length": 5,
+        "internal_vertex": 3,
+        "exact_probability": "4/625",
+        "required_lower_probability": "8/3125"
+      },
+      {
+        "h": 6,
+        "path_length": 5,
+        "internal_vertex": 4,
+        "exact_probability": "4/625",
+        "required_lower_probability": "8/3125"
+      },
+      {
+        "h": 6,
+        "path_length": 6,
+        "internal_vertex": 1,
+        "exact_probability": "8/3125",
+        "required_lower_probability": "8/3125"
+      },
+      {
+        "h": 6,
+        "path_length": 6,
+        "internal_vertex": 2,
+        "exact_probability": "8/3125",
+        "required_lower_probability": "8/3125"
+      },
+      {
+        "h": 6,
+        "path_length": 6,
+        "internal_vertex": 3,
+        "exact_probability": "8/3125",
+        "required_lower_probability": "8/3125"
+      },
+      {
+        "h": 6,
+        "path_length": 6,
+        "internal_vertex": 4,
+        "exact_probability": "8/3125",
+        "required_lower_probability": "8/3125"
+      },
+      {
+        "h": 6,
+        "path_length": 6,
+        "internal_vertex": 5,
+        "exact_probability": "8/3125",
+        "required_lower_probability": "8/3125"
+      }
+    ]
+  },
+  "constructed_closures": {
+    "cases": 8,
+    "nonvacuous_cases": 8,
+    "records": [
+      {
+        "h": 3,
+        "t": 3,
+        "ambient_depth": 7,
+        "graph_order": 129,
+        "terminals": 2,
+        "enumerated_closure_size": 5,
+        "upper_bound_exact": "34",
+        "upper_bound_below_ambient_order": true
+      },
+      {
+        "h": 3,
+        "t": 3,
+        "ambient_depth": 8,
+        "graph_order": 257,
+        "terminals": 2,
+        "enumerated_closure_size": 5,
+        "upper_bound_exact": "34",
+        "upper_bound_below_ambient_order": true
+      },
+      {
+        "h": 4,
+        "t": 3,
+        "ambient_depth": 8,
+        "graph_order": 257,
+        "terminals": 2,
+        "enumerated_closure_size": 9,
+        "upper_bound_exact": "110",
+        "upper_bound_below_ambient_order": true
+      },
+      {
+        "h": 4,
+        "t": 3,
+        "ambient_depth": 9,
+        "graph_order": 513,
+        "terminals": 2,
+        "enumerated_closure_size": 9,
+        "upper_bound_exact": "110",
+        "upper_bound_below_ambient_order": true
+      },
+      {
+        "h": 5,
+        "t": 3,
+        "ambient_depth": 9,
+        "graph_order": 513,
+        "terminals": 2,
+        "enumerated_closure_size": 17,
+        "upper_bound_exact": "8246/27",
+        "upper_bound_below_ambient_order": true
+      },
+      {
+        "h": 5,
+        "t": 3,
+        "ambient_depth": 10,
+        "graph_order": 1025,
+        "terminals": 2,
+        "enumerated_closure_size": 17,
+        "upper_bound_exact": "8246/27",
+        "upper_bound_below_ambient_order": true
+      },
+      {
+        "h": 6,
+        "t": 3,
+        "ambient_depth": 10,
+        "graph_order": 1025,
+        "terminals": 2,
+        "enumerated_closure_size": 33,
+        "upper_bound_exact": "3133/4",
+        "upper_bound_below_ambient_order": true
+      },
+      {
+        "h": 6,
+        "t": 3,
+        "ambient_depth": 11,
+        "graph_order": 2049,
+        "terminals": 2,
+        "enumerated_closure_size": 33,
+        "upper_bound_exact": "3133/4",
+        "upper_bound_below_ambient_order": true
+      }
+    ]
+  },
+  "elapsed_seconds": 0.391
+}

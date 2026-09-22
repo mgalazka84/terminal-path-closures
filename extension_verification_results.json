@@ -1,0 +1,169 @@
+{
+  "status": "all assertions passed",
+  "small_graphs": {
+    "graphs": 1099,
+    "path_closure_inequalities": 131068,
+    "partition_boundary_inequalities": 21930
+  },
+  "outerplanar_boundary_checks": {
+    "cases": 480,
+    "cases_with_positive_bound_below_order": 248,
+    "seed": 2209202602,
+    "orders": [
+      20,
+      50,
+      100,
+      200
+    ]
+  },
+  "sharp_ladder_chains": [
+    {
+      "k": 1,
+      "cells": 2,
+      "boundary": 6,
+      "upper_bound": 6
+    },
+    {
+      "k": 1,
+      "cells": 3,
+      "boundary": 11,
+      "upper_bound": 11
+    },
+    {
+      "k": 1,
+      "cells": 10,
+      "boundary": 46,
+      "upper_bound": 46
+    },
+    {
+      "k": 1,
+      "cells": 20,
+      "boundary": 96,
+      "upper_bound": 96
+    },
+    {
+      "k": 2,
+      "cells": 2,
+      "boundary": 10,
+      "upper_bound": 10
+    },
+    {
+      "k": 2,
+      "cells": 3,
+      "boundary": 19,
+      "upper_bound": 19
+    },
+    {
+      "k": 2,
+      "cells": 10,
+      "boundary": 82,
+      "upper_bound": 82
+    },
+    {
+      "k": 2,
+      "cells": 20,
+      "boundary": 172,
+      "upper_bound": 172
+    },
+    {
+      "k": 5,
+      "cells": 2,
+      "boundary": 22,
+      "upper_bound": 22
+    },
+    {
+      "k": 5,
+      "cells": 3,
+      "boundary": 43,
+      "upper_bound": 43
+    },
+    {
+      "k": 5,
+      "cells": 10,
+      "boundary": 190,
+      "upper_bound": 190
+    },
+    {
+      "k": 5,
+      "cells": 20,
+      "boundary": 400,
+      "upper_bound": 400
+    }
+  ],
+  "iterated_closure_examples": [
+    {
+      "h": 2,
+      "iterations": 1,
+      "depth": 1,
+      "vertices": 3,
+      "closure_sizes": [
+        2,
+        3
+      ]
+    },
+    {
+      "h": 2,
+      "iterations": 5,
+      "depth": 5,
+      "vertices": 33,
+      "closure_sizes": [
+        2,
+        3,
+        5,
+        9,
+        17,
+        33
+      ]
+    },
+    {
+      "h": 3,
+      "iterations": 1,
+      "depth": 2,
+      "vertices": 5,
+      "closure_sizes": [
+        2,
+        5
+      ]
+    },
+    {
+      "h": 3,
+      "iterations": 2,
+      "depth": 4,
+      "vertices": 17,
+      "closure_sizes": [
+        2,
+        5,
+        17
+      ]
+    },
+    {
+      "h": 3,
+      "iterations": 3,
+      "depth": 6,
+      "vertices": 65,
+      "closure_sizes": [
+        2,
+        5,
+        17,
+        65
+      ]
+    },
+    {
+      "h": 4,
+      "iterations": 2,
+      "depth": 6,
+      "vertices": 65,
+      "closure_sizes": [
+        2,
+        9,
+        65
+      ]
+    }
+  ],
+  "limitations": [
+    "Finite checks supplement the mathematical proofs.",
+    "No test of the full distributed algorithm.",
+    "No assertion of literature priority."
+  ],
+  "seconds": 0.87
+}

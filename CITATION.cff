@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "Please cite this verification code using the exact commit used."
+type: software
+title: "Short terminal-path closures and local distance domination: verification code"
+authors:
+  - family-names: "Gałązka"
+    given-names: "Marek"
+  - family-names: "Wdowicka"
+    given-names: "Hanna"
+abstract: >-
+  Python scripts and recorded finite-check results supporting proofs and
+  constructions for terminal-path closures and local distance domination
+  in graphs excluding K_{2,t} as a minor.
+repository-code: "https://github.com/mgalazka84/terminal-path-closures"
